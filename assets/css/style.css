@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+#contactos {
+    width: 20em;
+    height: 100vh;
+    background-color: #FFF;
+    /* padding: 40px; */
+}
+
+#contactos ul {
+    list-style-type: none;
+    /* border: #696565; */
+    padding: 0;
+}
+
+#contactos li {
+    
+    /* border-bottom: 1px solid #696565; */
+    padding: 10px;
+}
+
+#principal {
+    flex: 1;
+    display: flex;
+    background-color: #E8EBE4  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    padding: 10% 30%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #CDC3E6;
+}
+.button:focus {
+    background-color: #BEC1BB;
+}
+.tabbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.info p {
+    margin: 0;
+}
+
+.info .status {
+    color: rgb(126, 128, 126);
+    font-size: 0.9em;
+}
+
+.icons {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+    color: #BEC1BB;
+}
+.contacto {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el avatar y el texto */
+    justify-content: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.avatar-contact {
+    margin-right: 10px;
+}
+
+.avatar-contact img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.info-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-contact .name {
+    font-weight: bold;
+}
+
+.info-contact .status {
+    color: rgb(126, 128, 126);
+    font-size: 0.9em;
+}
