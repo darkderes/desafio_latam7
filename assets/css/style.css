@@ -7,23 +7,40 @@
 body {
      display: flex;
      height: 100vh;
+     font-family: 'Open Sans', sans-serif;
 }
+
+h1, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+p, h2 a, li, button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; /* Open Sans Regular */
+}
+
+h1
+{
+    font-size: 45px;
+}h2
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .contactos {
     width: 20em;
     height: 100vh;
     background-color: #FFF;
     overflow-y: auto;
+    border: 1px solid #2fa320;
 }
 
 .contactos ul {
     list-style-type: none;
     padding: 0;
 }
-
-/* #contactos li {
-    
-    padding: 10px;
-} */
 
 .principal {
     flex: 1;
@@ -32,29 +49,30 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    border: 1px solid #b82222;
     /* overflow: hidden; */
 }
 
 .img {
-    max-width: 100%;
-    max-height: 100%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .img img {
-    max-width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
+
 
 .button {
     background-color: #A491D2;
     border: none;
     color: white;
     width: 100%;
-    /* padding: 20px; */
     height: 50px;
     text-align: center;
     text-decoration: none;
@@ -73,9 +91,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 30px;
     border-bottom: 1px solid #ccc;
+    border: 1px solid #161d79;
 }
+
 .avatar img {
     width: 50px;
     height: 50px;
@@ -107,14 +127,12 @@ body {
     justify-content: center;
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
-     padding: 10px; 
-    /* padding: 10px; */
-    /* margin-top: 20px; */
+     padding: 20px; 
 }
 .contacto {
     display: flex;
     align-items: center; /* Alinea verticalmente el avatar y el texto */
-    justify-content: flex-start;
+    justify-content: center;
     padding: 10px;
     border-bottom: 1px solid #ccc;
 }
@@ -135,10 +153,14 @@ body {
 }
 
 .info-contact .name {
-    font-weight: bold;
+    font-size: 18px;
+    /* font-weight: bold; */
 }
 
 .info-contact .status {
     color: rgb(126, 128, 126);
-    font-size: 0.9em;
+    font-size: 14px;
+}
+.button {
+    font-size: 14px;
 }
