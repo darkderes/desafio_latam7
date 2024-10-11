@@ -8,15 +8,14 @@ body {
      display: flex;
      height: 100vh;
 }
-
-#contactos {
+.contactos {
     width: 20em;
     height: 100vh;
     background-color: #FFF;
     overflow-y: auto;
 }
 
-#contactos ul {
+.contactos ul {
     list-style-type: none;
     padding: 0;
 }
@@ -26,7 +25,7 @@ body {
     padding: 10px;
 } */
 
-#principal {
+.principal {
     flex: 1;
     display: flex;
     background-color: #E8EBE4  ;
