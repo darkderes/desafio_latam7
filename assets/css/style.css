@@ -10,7 +10,7 @@ body {
      font-family: 'Open Sans', sans-serif;
 }
 
-h1, h3, h4, h5, h6 {
+h1 {
     font-family: 'Roboto', sans-serif;
     
 }
@@ -34,7 +34,6 @@ h1
     height: 100vh;
     background-color: #FFF;
     overflow-y: auto;
-    border: 1px solid #2fa320;
 }
 
 .contactos ul {
@@ -49,8 +48,6 @@ h1
     justify-content: center;
     align-items: center;
     height: 100vh;
-    border: 1px solid #b82222;
-    /* overflow: hidden; */
 }
 
 .img {
@@ -93,7 +90,6 @@ h1
     justify-content: space-between;
     padding: 10px 30px;
     border-bottom: 1px solid #ccc;
-    border: 1px solid #161d79;
 }
 
 .avatar img {
